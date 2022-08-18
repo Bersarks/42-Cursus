@@ -1,0 +1,56 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/otokluog/Desktop/Alosman GOD_MODE'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./src/libraries/libft
+ 
+make[1]: Entering directory `/Users/otokluog/Desktop/Alosman GOD_MODE/src/libraries/libft'
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+ 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+clang -Wall -Wextra -Werror -c ft_strjoin.c ft_strdup.c ft_strlen.c ft_split.c ft_substr.c ft_strlcpy.c ft_memcpy.c get_next_line.c 
+echo '\033[3m''\033[2;37m' "     - Compiling libft.a..." '\033[0m'
+ar -rcs libft.a ft_strjoin.o ft_strdup.o ft_strlen.o ft_split.o ft_substr.o ft_strlcpy.o ft_memcpy.o get_next_line.o
+echo '\033[32m'"- Compiled -"'\033[0m'
+make[1]: Leaving directory `/Users/otokluog/Desktop/Alosman GOD_MODE/src/libraries/libft'
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./src/libraries/ft_printf
+ 
+make[1]: Entering directory `/Users/otokluog/Desktop/Alosman GOD_MODE/src/libraries/ft_printf'
+gcc    -c -o ft_putchar_d.o ft_putchar_d.c
+gcc    -c -o ft_puthex.o ft_puthex.c
+gcc    -c -o ft_putchar_p.o ft_putchar_p.c
+gcc    -c -o ft_putchar_s.o ft_putchar_s.c
+gcc    -c -o ft_putchar.o ft_putchar.c
+gcc    -c -o ft_putchar_u.o ft_putchar_u.c
+gcc    -c -o ft_uitoa.o ft_uitoa.c
+gcc    -c -o ft_putchar_x.o ft_putchar_x.c
+gcc    -c -o ft_printf.o ft_printf.c
+ar -rcs libftprintf.a ft_putchar_d.o ft_puthex.o ft_putchar_p.o ft_putchar_s.o ft_putchar.o ft_putchar_u.o ft_uitoa.o ft_putchar_x.o ft_printf.o
+make[1]: Leaving directory `/Users/otokluog/Desktop/Alosman GOD_MODE/src/libraries/ft_printf'
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Making object files..." '\033[0m'
+gcc -Wall -Wextra -Werror -c map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+echo '\033[3m''\033[2;37m' "     - Compiling so_long..." '\033[0m'
+gcc -Wall -Wextra -Werror map_check.o mapread.o so_long.o init.o draw.o so_play.o game_update.o exit_game.o ./src/libraries/libft/libft.a ./src/libraries/ft_printf/libftprintf.a -lmlx -framework OpenGL -framework AppKit -L./src/libraries/mlx -L./src/libraries/libft -o so_long
+echo '\033[32m'"- Compiled -"'\033[0m'
+rm map_check.o mapread.o so_long.o init.o draw.o so_play.o game_update.o exit_game.o
+echo '\033[3m''\033[2;37m' "     Deleted object files" '\033[0m'
+make: Leaving directory `/Users/otokluog/Desktop/Alosman GOD_MODE'
+ 

@@ -1,0 +1,460 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Mon Jul  4 17:30:30 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 21)
+OBJ = $(SRC:.c=.o)
+# makefile (from `Makefile', line 28)
+GRAY = '\033[2;37m'
+# makefile (from `Makefile', line 14)
+SRC = map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c
+# makefile (from `Makefile', line 16)
+FT_PRINTF = $(FT_PRINTF_PATH)/libftprintf.a
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/otokluog/Desktop/Alosman GOD_MODE
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n000c_l00032mr/T/vscode-ipc-599bcb5a-c44b-43d8-9c87-d5fccda7b314.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
+# makefile (from `Makefile', line 17)
+FT_PRINTF_PATH = ./src/libraries/ft_printf
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YWACPj1GJF/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/otokluog/Desktop/Alosman GOD_MODE
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 27)
+GREEN = '\033[32m'
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/otokluog
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/otokluog/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = otokluog
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 18)
+LIBFT = $(LIBFT_PATH)/libft.a
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = otokluog
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 13)
+NAME = so_long
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 24)
+LINKS = -lmlx -framework OpenGL -framework AppKit -L./src/libraries/mlx -L./src/libraries/libft
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000c_l00032mr/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 26)
+NONE = '\033[0m'
+# environment
+VSCODE_IPC_HOOK = /Users/otokluog/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.2320
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18A98:0x23:0x18
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 19)
+LIBFT_PATH = ./src/libraries/libft
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 29)
+CURSIVE = '\033[3m'
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 23)
+FLAGS = -Wall -Wextra -Werror
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 36950
+# variable set hash-table stats:
+# Load=73/1024=7%, Rehash=0, Collisions=7/123=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777225, inode 12421): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+init.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 17:34:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+exe: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 50):
+	@echo "     - Executing $(NAME)... \n"
+	@./$(NAME)
+	@echo "\n     - Done -"
+	
+
+all: so_long
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+mapread.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+# Not a target:
+draw.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 11:38:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+mapread.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 10:37:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+so_long.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 11:00:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+game_update.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 17:41:50
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/libraries/libft/libft.a:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-07 16:38:52
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 34):
+	$(MAKE) -C $(LIBFT_PATH)
+	
+
+# Not a target:
+so_play.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 17:34:13
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 17:37:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+map_check.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 10:36:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 60):
+	@echo $(CURSIVE)$(GRAY) "     - Removing $(NAME)..." $(NONE)
+	@rm -rf $(NAME)
+	$(MAKE) -C $(LIBFT_PATH) fclean
+	$(MAKE) -C $(FT_PRINTF_PATH) fclean
+	
+
+exit_game.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+ 
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libraries/ft_printf/libftprintf.a:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-07 16:38:52
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 36):
+	$(MAKE) -C $(FT_PRINTF_PATH)
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 54):
+	@echo $(CURSIVE)$(GRAY) "     - Removing object files..." $(NONE)
+	@rm -rf $(OBJ)
+	$(MAKE) -C $(LIBFT_PATH) clean
+	$(MAKE) -C $(FT_PRINTF_PATH) fclean
+	
+
+init.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+# Not a target:
+exit_game.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 10:25:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+draw.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+so_long: map_check.o mapread.o so_long.o init.o draw.o so_play.o game_update.o exit_game.o src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-10 10:12:43
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  commands to execute (from `Makefile', line 39):
+	@echo $(CURSIVE)$(GRAY) "     - Compiling $(NAME)..." $(NONE)
+	@gcc $(FLAGS) $(OBJ) $(LIBFT) $(FT_PRINTF) $(LINKS) -o $(NAME)
+	@echo $(GREEN)"- Compiled -"$(NONE)
+	@rm $(OBJ)
+	@echo $(CURSIVE)$(GRAY) "     Deleted object files" $(NONE)
+	
+
+so_long.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+game_update.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+so_play.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+map_check.o: map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := map_check.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+# automatic
+# | := 
+# automatic
+# < := map_check.c
+# automatic
+# ^ := map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+# automatic
+# ? := map_check.c mapread.c so_long.c init.c draw.c so_play.c game_update.c exit_game.c src/libraries/libft/libft.a src/libraries/ft_printf/libftprintf.a
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=6/15=40%
+#  commands to execute (from `Makefile', line 46):
+	@echo $(CURSIVE)$(GRAY) "     - Making object files..." $(NONE)
+	@gcc $(FLAGS) -c $(SRC)
+	
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=9/136=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jul  4 17:30:30 2022
+
+ 
